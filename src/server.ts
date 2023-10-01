@@ -17,6 +17,7 @@ app.get('/data', async (req, res) => {
 
   res.json(data);
 });
+// we are using axios for simplicity
 
 
 app.listen(port, () => {
